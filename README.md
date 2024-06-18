@@ -1,14 +1,12 @@
 # Tank Battle
 #### This is a tank game including:
-* A single server
-* Multiple users
-* Multiple devices per user
-* A password for each device which is used for authentication
-* Multiple users can share same device but the only way for authentication is the device password hence it will be same for different users. What can be done to prevent this sharing of password is maybe limiting 1 user per device or creating different passwords for each user-device pair which will be unique across all users.  
+* A Tank which fires bullets with varying hitpoints.
+* enemy blocks with different powers
+* Booster stone to power up the hitpoints
 
-#### Running:
+#### Howw to play:
 * Clone the repository.
-* Run `g++ main.cpp Device.cpp User.cpp UserInfo.cpp Server.cpp` on the command line or terminal.
+* Firstly install the latest version of python in your device from https://www.python.org/downloads/.
 * Run `./a.exe` or `./a.out` to execute the program.
 
 #### How to use:
