@@ -24,4 +24,4 @@
 * `Left key`: for moving left.
 * `Right key`: for moving right.
 
-File `TankBattle_1.py` is the updated file.
+File `TankBattle.py` is the updated file.
