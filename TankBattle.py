@@ -54,34 +54,6 @@ background_image = pygame.transform.scale(background_image, (SCREEN_WIDTH, SCREE
 font = pygame.font.Font(None, 36)
 
 class Tank(pygame.sprite.Sprite):
-    # def __init__(self):
-    #     super().__init__()
-    #     self.image = pygame.Surface((TANK_WIDTH, TANK_HEIGHT + BARREL_HEIGHT), pygame.SRCALPHA)
-    #     self.image.fill((0, 0, 0, 0))
-    #     self.rect = self.image.get_rect()
-    #     self.rect.centerx = SCREEN_WIDTH // 2
-    #     self.rect.bottom = SCREEN_HEIGHT
-    #     self.speed = TANK_SPEED
-    #     self.draw_tank()
-    #     self.hitpoint = 1
-
-    # def draw_tank(self):
-    #     pygame.draw.rect(self.image, darkgreen, (0, BARREL_HEIGHT, TANK_WIDTH, TANK_HEIGHT))
-    #     pygame.draw.rect(self.image, black, ((TANK_WIDTH // 2) - (BARREL_WIDTH // 2), 0, BARREL_WIDTH, BARREL_HEIGHT))
-
-
-    # def update(self):
-    #     keys = pygame.key.get_pressed()
-    #     if keys[pygame.K_LEFT]:
-    #         self.rect.x -= self.speed
-    #     if keys[pygame.K_RIGHT]:
-    #         self.rect.x += self.speed
-    #     # for tank to stay within the frame
-    #     if self.rect.left < 0:
-    #         self.rect.left = 0
-    #     if self.rect.right > SCREEN_WIDTH:
-    #         self.rect.right = SCREEN_WIDTH
-    # class Tank(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
         self.image = pygame.Surface((TANK_WIDTH, TANK_HEIGHT + BARREL_HEIGHT), pygame.SRCALPHA)
